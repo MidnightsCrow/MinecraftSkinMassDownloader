@@ -14,3 +14,5 @@ Folder names and file names must be left alone to work properly.
 
 Python is required to run this project.
 Pip may be nescesary to install the "requests" import.
+
+FOR THIS PROJECT TO RUN, YOU MUST CREATE A FOLDER TITLED "Skins" INSIDE THE PROJECT FOLDER. IF IT STILL DOESENT WORK TRY RENAMING THE FOLDER TITLES "MinecraftskinsMassDownloader" TO "Skins" SO YOUR FOLDER STRUCTURE SHOULD END UP LOOKING LIKE "Skins/Skins/{downloaded-skins}"
