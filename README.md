@@ -16,3 +16,5 @@ Python is required to run this project.
 Pip may be nescesary to install the "requests" import.
 
 FOR THIS PROJECT TO RUN, YOU MUST CREATE A FOLDER TITLED "Skins" INSIDE THE PROJECT FOLDER. IF IT STILL DOESENT WORK TRY RENAMING THE FOLDER TITLES "MinecraftskinsMassDownloader" TO "Skins" SO YOUR FOLDER STRUCTURE SHOULD END UP LOOKING LIKE "Skins/Skins/{downloaded-skins}"
+
+This project runs off of downloading files from https://minotar.net/, so huge shoutout and credits to them!
