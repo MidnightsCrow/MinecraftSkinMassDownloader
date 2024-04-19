@@ -18,3 +18,23 @@ Pip may be nescesary to install the "requests" import.
 FOR THIS PROJECT TO RUN, YOU MUST CREATE A FOLDER TITLED "Skins" INSIDE THE PROJECT FOLDER. IF IT STILL DOESENT WORK TRY RENAMING THE FOLDER TITLES "MinecraftskinsMassDownloader" TO "Skins" SO YOUR FOLDER STRUCTURE SHOULD END UP LOOKING LIKE "Skins/Skins/{downloaded-skins}"
 
 This project runs off of downloading files from https://minotar.net/, so huge shoutout and credits to them!
+
+# Customability!
+
+If you want to change the resolution, add "/{resolution}.png" in the code, like this:
+at line 50, "   url = f"https://minotar.net/download/{username}.png"   "
+change it to
+"   url = f"https://minotar.net/{username}/{resolution}.png"    "
+
+With that in mind, you can also change it to download the players isometric head
+by changing it to "https://minotar.net/cube/{username}/{resolution}.png" 
+**NOTE: REPLACE {resolution} with the resolution as it is not a variable in the code, and just a placeholder for this.**
+
+If you want a full body frontal view replace it with "https://minotar.net/body/{username}/{resolution}.png"
+If you want a full body frontal view with outer layer enabled replace it with "https://minotar.net/armor/body/{username}/{resolution}.png"
+If you want just the head frontal view replace it with "https://minotar.net/avatar/{username}/{resolution}.png"
+If you want just the head frontal view with outer layer enabled replace it with "https://minotar.net/helm/{username}/{resolution}.png"
+If you want the bust of a user replace it with "https://minotar.net/bust/{username}/{resolution}.png"
+If you want the bust of a user with outer layer enabled replace it with "https://minotar.net/armor/bust/{username}/{resolution}.png"
+
+# AT THE MOMENT NONE OF THESE WILL WORK. YOU WILL HAVE TO MANUALLY GO TO THESE WEBSITES LISTED. THIS IS BEING WORKED ON.
